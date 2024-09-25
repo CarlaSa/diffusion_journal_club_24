@@ -1,7 +1,12 @@
+On this page the up-to-date schedule of our Diffusion Journal Club can be found.
+We meet **every Wednesday** from **3-5 pm** in the **conference room on the fourth floor** of the AI center.
 
+Content of this page:
+- [Overview of all the dates](#overview)
+- [Detailed week-by-week schedule](#week-by-week-schedule)
+  - Right now these include the abstracts of the papers that will be read. We hope to add the slides from the meetings after.  
 
 # Overview
-
 
 | Date       | Theme                                   | Title                                                                                                                          | Link                                      | Section-link        | Responsible for Recap | Responsible for Questions |
 |:---------- | --------------------------------------- |:------------------------------------------------------------------------------------------------------------------------------ |:----------------------------------------- |:------------------- |:--------------------- | ------------------------- |
@@ -11,20 +16,21 @@
 | 23.10.2024 | Sampler and Solver for Diffusion Models | SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models                                            | [arxiv](https://arxiv.org/abs/2305.14267) | [Week 4](#week-4)   |                       |                           |
 | 30.10.2024 | Bonus 1                                 | TBD                                                                                                                            | TBD                                       | [Week 5](#week-5)   |                       |                           |
 | 06.11.2024 | Flow Matching 1                         | Diffusion Schrödinger Bridge Matching                                                                                          | [arxiv](https://arxiv.org/abs/2303.16852) | [Week 6](#week-6)   |                       |                           |
-| 13.11.2024 | Flow Matching 2                         | Flow Matching for Generative Modeling                                                                                          | [arxiv](https://arxiv.org/abs/2210.02747) | [Week 7](#week-7)   |                       |                           |
-|            |                                         | Scaling Rectified Flow Transformers for High-Resolution Image Synthesis         |     [arxiv](https://arxiv.org/abs/2403.03206)                                            |                     |                       |                           |
+| 13.11.2024 | Flow Matching 2                         | Flow Matching for Generative Modeling <br> <br>  Scaling Rectified Flow Transformers for High-Resolution Image Synthesis                                                                                          | [arxiv](https://arxiv.org/abs/2210.02747) <br> <br> [arxiv](https://arxiv.org/abs/2403.03206)  | [Week 7](#week-7)   |                       |                           |
 | 20.11.2024 | Consistency models                      | Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion                                           | [arxiv](https://arxiv.org/abs/2310.02279) | [Week 8](#week-8)   |                       |                           |
 | 27.11.2024 | Discrete Diffusion                      | Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution                                                  | [arxiv](https://arxiv.org/abs/2310.16834) | [Week 9](#week-9)   |                       |                           |
 | 04.12.2024 | Bonus 2                                 | TBD                                                                                                                            | TBD                                       | [Week 10](#week-10) |                       |                           |
 
-# Week 0
-## Interesting Tutorials & blog articles 
+# Week-by-Week Schedule
+
+## Week 0
+### Interesting Tutorials & blog articles 
+
+- Cagatay Yildiz (who is also part of the journal club) compiled a lot of useful information on his [personal blog](https://cagatayyildiz.github.io/notes/2023-02-02-dm/)
 
 
-
-
-# Week 1
-## Diffusion Models: the stochastic differential equation view
+## Week 1
+### Diffusion Models: the stochastic differential equation view
 
 | **Titel**                 | Elucidating the Design Space of Diffusion-Based Generative Models |
 | ------------------------- | ----------------------------------------------------------------- |
@@ -40,7 +46,7 @@ _Abstract_
 **Further reading**
 - Tutorial: [Denoising Diffusion Probabilistic Models in Six Simple Steps](https://arxiv.org/abs/2402.04384)
 
-# Week 2
+## Week 2
 ### Diffusion Models: the ELBO view
 
 | **Titel**                 | Understanding the Diffusion Objective as a Weighted Integral of ELBOs |
@@ -59,8 +65,8 @@ _Abstract_
 **Further reading**
 - [Variational Diffusion Models](http://arxiv.org/abs/2107.00630)
 
-# Week 3
-## Titel
+## Week 3
+### Titel
 
 | **Titel**                 | On the Generalization Properties of Diffusion Models |
 | ------------------------- | ---------------------------------------------------- |
@@ -77,8 +83,8 @@ _Abstract_
 - [How Diffusion Models Learn to Factorize and Compose](https://arxiv.org/abs/2408.13256)
 
 
-# Week 4
-## Titel
+## Week 4
+### Titel
 
 | **Titel**                 |SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models     |
 | ------------------------- | --- |
@@ -96,11 +102,8 @@ _Abstract_
 - [Fast Sampling of Diffusion Models with Exponential Integrator](https://arxiv.org/abs/2204.13902)
 
 
-# Week 5
-
-TBD
-
-## Titel
+## Week 5
+### TBD
 
 | **Titel**                 |     |
 | ------------------------- | --- |
@@ -113,8 +116,8 @@ TBD
 _Abstract_
 > Contents
 
-# Week 6
-## Flow Matching Part 1
+## Week 6
+### Flow Matching Part 1
 
 | **Titel**                 |   Diffusion Schrödinger Bridge Matching     |
 | ------------------------- | --- |
@@ -129,8 +132,8 @@ _Abstract_
 
 
 
-# Week 7
-## Flow Matching Part 2
+## Week 7
+### Flow Matching Part 2
 
 After covering the math with a lot of detail last week, this week we will consider two papers more broadly.
 
@@ -149,9 +152,7 @@ _Abstract_
 | **Titel**                 | Scaling Rectified Flow Transformers for High-Resolution Image Synthesis   |
 | ------------------------- | --- |
 | **Date**                  |  13.11.2024   |
-| **Authors**               |   Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach
-
-|
+| **Authors**               |   Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach|
 | **Responsible Recap**     |     |
 | **Responsible Questions** |     |
 | **Link**                  | [arxiv](https://arxiv.org/abs/2403.03206)    |
@@ -159,8 +160,8 @@ _Abstract_
 _Abstract_
 > Diffusion models create data from noise by inverting the forward paths of data towards noise and have emerged as a powerful generative modeling technique for high-dimensional, perceptual data such as images and videos. Rectified flow is a recent generative model formulation that connects data and noise in a straight line. Despite its better theoretical properties and conceptual simplicity, it is not yet decisively established as standard practice. In this work, we improve existing noise sampling techniques for training rectified flow models by biasing them towards perceptually relevant scales. Through a large-scale study, we demonstrate the superior performance of this approach compared to established diffusion formulations for high-resolution text-to-image synthesis. Additionally, we present a novel transformer-based architecture for text-to-image generation that uses separate weights for the two modalities and enables a bidirectional flow of information between image and text tokens, improving text comprehension, typography, and human preference ratings. We demonstrate that this architecture follows predictable scaling trends and correlates lower validation loss to improved text-to-image synthesis as measured by various metrics and human evaluations. Our largest models outperform state-of-the-art models, and we will make our experimental data, code, and model weights publicly available.
 
-# Week 8
-## Consistency models
+## Week 8
+### Consistency models
 
 | **Titel**                 | Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion    |
 | ------------------------- | --- |
@@ -174,9 +175,8 @@ _Abstract_
 > Consistency Models (CM) (Song et al., 2023) accelerate score-based diffusion model sampling at the cost of sample quality but lack a natural way to trade-off quality for speed. To address this limitation, we propose Consistency Trajectory Model (CTM), a generalization encompassing CM and score-based models as special cases. CTM trains a single neural network that can -- in a single forward pass -- output scores (i.e., gradients of log-density) and enables unrestricted traversal between any initial and final time along the Probability Flow Ordinary Differential Equation (ODE) in a diffusion process. CTM enables the efficient combination of adversarial training and denoising score matching loss to enhance performance and achieves new state-of-the-art FIDs for single-step diffusion model sampling on CIFAR-10 (FID 1.73) and ImageNet at 64x64 resolution (FID 1.92). CTM also enables a new family of sampling schemes, both deterministic and stochastic, involving long jumps along the ODE solution trajectories. It consistently improves sample quality as computational budgets increase, avoiding the degradation seen in CM. Furthermore, unlike CM, CTM's access to the score function can streamline the adoption of established controllable/conditional generation methods from the diffusion community. This access also enables the computation of likelihood. The code is available at this https URL. 
 
 
-# Week 9
-
-## Discrete Diffusion 
+## Week 9
+### Discrete Diffusion 
 
 | **Titel**                 | Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution |
 | ------------------------- | ----------------------------------------------------------------------------- |
@@ -189,8 +189,8 @@ _Abstract_
 _Abstract_
 > Despite their groundbreaking performance for many generative modeling tasks, diffusion models have fallen short on discrete data domains such as natural language. Crucially, standard diffusion models rely on the well-established theory of score matching, but efforts to generalize this to discrete structures have not yielded the same empirical gains. In this work, we bridge this gap by proposing score entropy, a novel loss that naturally extends score matching to discrete spaces, integrates seamlessly to build discrete diffusion models, and significantly boosts performance. Experimentally, we test our Score Entropy Discrete Diffusion models (SEDD) on standard language modeling tasks. For comparable model sizes, SEDD beats existing language diffusion paradigms (reducing perplexity by 25-75\%) and is competitive with autoregressive models, in particular outperforming GPT-2. Furthermore, compared to autoregressive mdoels, SEDD generates faithful text without requiring distribution annealing techniques like temperature scaling (around 6-8× better generative perplexity than un-annealed GPT-2), can trade compute and quality (similar quality with 32× fewer network evaluations), and enables controllable infilling (matching nucleus sampling quality while enabling other strategies besides left to right prompting). 
 
-# Week 10
-## TBD
+## Week 10
+### TBD
 
 | **Titel**                 |     |
 | ------------------------- | --- |
@@ -202,4 +202,3 @@ _Abstract_
 
 _Abstract_
 > Contents
-
