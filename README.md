@@ -1,4 +1,5 @@
 
+
 # Overview
 
 | Date       | Theme                                   | Title                                                                                | Link                                      | Section-link        | Responsible for Recap | Responsible for Questions |
@@ -111,71 +112,71 @@ _Abstract_
 > Contents
 
 # Week 6
-## Titel
+## Flow Matching Part 1
 
-
-| **Titel**                 |     |
+| **Titel**                 |   Diffusion Schrödinger Bridge Matching     |
 | ------------------------- | --- |
-| **Date**                  |     |
-| **Authors**               |     |
+| **Date**                  | 06.11.2024    |
+| **Authors**               | Yuyang Shi, Valentin De Bortoli, Andrew Campbell, Arnaud Doucet    |
 | **Responsible Recap**     |     |
 | **Responsible Questions** |     |
-| **Link**                  |     |
+| **Link**                  |   [arxiv](https://arxiv.org/abs/2210.02747)  |
 
 _Abstract_
-> Contents
+> Solving transport problems, i.e. finding a map transporting one given distribution to another, has numerous applications in machine learning. Novel mass transport methods motivated by generative modeling have recently been proposed, e.g. Denoising Diffusion Models (DDMs) and Flow Matching Models (FMMs) implement such a transport through a Stochastic Differential Equation (SDE) or an Ordinary Differential Equation (ODE). However, while it is desirable in many applications to approximate the deterministic dynamic Optimal Transport (OT) map which admits attractive properties, DDMs and FMMs are not guaranteed to provide transports close to the OT map. In contrast, Schrödinger bridges (SBs) compute stochastic dynamic mappings which recover entropy-regularized versions of OT. Unfortunately, existing numerical methods approximating SBs either scale poorly with dimension or accumulate errors across iterations. In this work, we introduce Iterative Markovian Fitting (IMF), a new methodology for solving SB problems, and Diffusion Schrödinger Bridge Matching (DSBM), a novel numerical algorithm for computing IMF iterates. DSBM significantly improves over previous SB numerics and recovers as special/limiting cases various recent transport methods. We demonstrate the performance of DSBM on a variety of problems. 
 
 
 
 # Week 7
-## Flow Matching
+## Flow Matching Part 2
 
-| **Titel**                 |     |
+| **Titel**                 | Flow Matching for Generative Modeling         |
 | ------------------------- | --- |
-| **Date**                  |     |
-| **Authors**               |     |
+| **Date**                  |  13.11.2024   |
+| **Authors**               |    Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le |
 | **Responsible Recap**     |     |
 | **Responsible Questions** |     |
-| **Link**                  |     |
+| **Link**                  | [arxiv](https://arxiv.org/abs/2210.02747)    |
 
 _Abstract_
-> Contents
+> We introduce a new paradigm for generative modeling built on Continuous Normalizing Flows (CNFs), allowing us to train CNFs at unprecedented scale. Specifically, we present the notion of Flow Matching (FM), a simulation-free approach for training CNFs based on regressing vector fields of fixed conditional probability paths. Flow Matching is compatible with a general family of Gaussian probability paths for transforming between noise and data samples -- which subsumes existing diffusion paths as specific instances. Interestingly, we find that employing FM with diffusion paths results in a more robust and stable alternative for training diffusion models. Furthermore, Flow Matching opens the door to training CNFs with other, non-diffusion probability paths. An instance of particular interest is using Optimal Transport (OT) displacement interpolation to define the conditional probability paths. These paths are more efficient than diffusion paths, provide faster training and sampling, and result in better generalization. Training CNFs using Flow Matching on ImageNet leads to consistently better performance than alternative diffusion-based methods in terms of both likelihood and sample quality, and allows fast and reliable sample generation using off-the-shelf numerical ODE solvers.
 
 # Week 8
-## Titel
+## Consistency models
 
-| **Titel**                 |     |
+| **Titel**                 | Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion    |
 | ------------------------- | --- |
-| **Date**                  |     |
-| **Authors**               |     |
+| **Date**                  |  20.11.2024   |
+| **Authors**               |  Dongjun Kim, Chieh-Hsin Lai, Wei-Hsiang Liao, Naoki Murata, Yuhta Takida, Toshimitsu Uesaka, Yutong He, Yuki Mitsufuji, Stefano Ermon   |
 | **Responsible Recap**     |     |
 | **Responsible Questions** |     |
-| **Link**                  |     |
+| **Link**                  | [arxiv](https://arxiv.org/abs/2310.02279)     |
 
 _Abstract_
-> Contents
+> Consistency Models (CM) (Song et al., 2023) accelerate score-based diffusion model sampling at the cost of sample quality but lack a natural way to trade-off quality for speed. To address this limitation, we propose Consistency Trajectory Model (CTM), a generalization encompassing CM and score-based models as special cases. CTM trains a single neural network that can -- in a single forward pass -- output scores (i.e., gradients of log-density) and enables unrestricted traversal between any initial and final time along the Probability Flow Ordinary Differential Equation (ODE) in a diffusion process. CTM enables the efficient combination of adversarial training and denoising score matching loss to enhance performance and achieves new state-of-the-art FIDs for single-step diffusion model sampling on CIFAR-10 (FID 1.73) and ImageNet at 64x64 resolution (FID 1.92). CTM also enables a new family of sampling schemes, both deterministic and stochastic, involving long jumps along the ODE solution trajectories. It consistently improves sample quality as computational budgets increase, avoiding the degradation seen in CM. Furthermore, unlike CM, CTM's access to the score function can streamline the adoption of established controllable/conditional generation methods from the diffusion community. This access also enables the computation of likelihood. The code is available at this https URL. 
 
 
 # Week 9
 
-## Titel
+## Discrete Diffusion 
 
-| **Titel**                 |     |
-| ------------------------- | --- |
-| **Date**                  |     |
-| **Authors**               |     |
-| **Responsible Recap**     |     |
-| **Responsible Questions** |     |
-| **Link**                  |     |
+| **Titel**                 | Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution |
+| ------------------------- | ----------------------------------------------------------------------------- |
+| **Date**                  | 27.11.2024                                                                    |
+| **Authors**               | Aaron Lou, Chenlin Meng, Stefano Ermon                                        |
+| **Responsible Recap**     |                                                                               |
+| **Responsible Questions** |                                                                               |
+| **Link**                  | [arxiv](https://arxiv.org/abs/2310.16834)                                     |
 
 _Abstract_
-> Contents
+> Despite their groundbreaking performance for many generative modeling tasks, diffusion models have fallen short on discrete data domains such as natural language. Crucially, standard diffusion models rely on the well-established theory of score matching, but efforts to generalize this to discrete structures have not yielded the same empirical gains. In this work, we bridge this gap by proposing score entropy, a novel loss that naturally extends score matching to discrete spaces, integrates seamlessly to build discrete diffusion models, and significantly boosts performance. Experimentally, we test our Score Entropy Discrete Diffusion models (SEDD) on standard language modeling tasks. For comparable model sizes, SEDD beats existing language diffusion paradigms (reducing perplexity by 25-75\%) and is competitive with autoregressive models, in particular outperforming GPT-2. Furthermore, compared to autoregressive mdoels, SEDD generates faithful text without requiring distribution annealing techniques like temperature scaling (around 6-8× better generative perplexity than un-annealed GPT-2), can trade compute and quality (similar quality with 32× fewer network evaluations), and enables controllable infilling (matching nucleus sampling quality while enabling other strategies besides left to right prompting). 
 
 # Week 10
+## TBD
 
 | **Titel**                 |     |
 | ------------------------- | --- |
-| **Date**                  |     |
+| **Date**                  | 04.12.2024    |
 | **Authors**               |     |
 | **Responsible Recap**     |     |
 | **Responsible Questions** |     |
@@ -183,3 +184,4 @@ _Abstract_
 
 _Abstract_
 > Contents
+
