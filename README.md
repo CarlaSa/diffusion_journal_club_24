@@ -4,7 +4,8 @@ We meet **every Wednesday** from **3-5 pm** in the **conference room on the four
 Content of this page:
 - [Overview of all the dates](#overview)
 - [Detailed week-by-week schedule](#week-by-week-schedule)
-  - Right now these include the abstracts of the papers that will be read. We hope to add the slides from the meetings after.  
+  - Right now these include the abstracts of the papers that will be read. We hope to add the slides from the meetings after.
+  - We also try to add relevant further papers to explore these directions more or understand some things in more detail
 
 # Overview
 
