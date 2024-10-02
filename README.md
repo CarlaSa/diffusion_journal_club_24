@@ -38,8 +38,8 @@ Content of this page:
 | ------------------------- | ----------------------------------------------------------------- |
 | **Date**                  | 02.10.2024                                                        |
 | **Authors**               | Tero Karras, Miika Aittala, Timo Aila, Samuli Laine                                                                  |
-| **Responsible Recap**     |                                                                   |
-| **Responsible Questions** |                                                                   |
+| **Responsible Recap**     | Manuel                                                            |
+| **Responsible Questions** | Carla                                                             |
 | **Link**                  | [arxiv](https://arxiv.org/abs/2206.00364)                         |
 
 _Abstract_
