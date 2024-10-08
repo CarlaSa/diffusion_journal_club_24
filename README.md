@@ -57,7 +57,7 @@ _Abstract_
 | ------------------------- | --------------------------------------------------------------------- |
 | **Date**                  | 09.10.2024                                                            |
 | **Authors**               | Diederik P. Kingma, Ruiqi Gao                                                                      |
-| **Responsible Recap**     |                                                                       |
+| **Responsible Recap**     | Johannes                                                              |
 | **Responsible Questions** |                                                                       |
 | **Link**                  | [arxiv](https://arxiv.org/abs/2402.04384)                             |
 
@@ -127,7 +127,7 @@ _Abstract_
 | ------------------------- | --- |
 | **Date**                  | 06.11.2024    |
 | **Authors**               | Yuyang Shi, Valentin De Bortoli, Andrew Campbell, Arnaud Doucet    |
-| **Responsible Recap**     |     |
+| **Responsible Recap**     | Mattia    |
 | **Responsible Questions** |     |
 | **Link**                  |   [arxiv](https://arxiv.org/abs/2210.02747)  |
 
@@ -145,7 +145,7 @@ After covering the math with a lot of detail last week, this week we will consid
 | ------------------------- | --- |
 | **Date**                  |  13.11.2024   |
 | **Authors**               |    Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le |
-| **Responsible Recap**     |     |
+| **Responsible Recap**     | Annalena    |
 | **Responsible Questions** |     |
 | **Link**                  | [arxiv](https://arxiv.org/abs/2210.02747)    |
 
@@ -157,7 +157,7 @@ _Abstract_
 | ------------------------- | --- |
 | **Date**                  |  13.11.2024   |
 | **Authors**               |   Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach|
-| **Responsible Recap**     |     |
+| **Responsible Recap**     | Jay    |
 | **Responsible Questions** |     |
 | **Link**                  | [arxiv](https://arxiv.org/abs/2403.03206)    |
 
@@ -186,7 +186,7 @@ _Abstract_
 | ------------------------- | ----------------------------------------------------------------------------- |
 | **Date**                  | 27.11.2024                                                                    |
 | **Authors**               | Aaron Lou, Chenlin Meng, Stefano Ermon                                        |
-| **Responsible Recap**     |                                                                               |
+| **Responsible Recap**     | Turan                                                                         |
 | **Responsible Questions** |                                                                               |
 | **Link**                  | [arxiv](https://arxiv.org/abs/2310.16834)                                     |
 
