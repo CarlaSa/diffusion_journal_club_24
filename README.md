@@ -13,7 +13,7 @@ Content of this page:
 |:---------- | --------------------------------------- |:------------------------------------------------------------------------------------------------------------------------------ |:----------------------------------------- |:------------------- |:--------------------- | ------------------------- |
 | 02.10.2024 | Introduction 1 : SDE view               | Elucidating the Design Space of Diffusion-Based Generative Models                                                              | [arxiv](https://arxiv.org/abs/2206.00364) | [Week 1](#week-1)   |        Manuel          |       Carla                    |
 | 09.10.2024 | Introduction 2: ELBO view               | Understanding the Diffusion Objective as a Weighted Integral of ELBOs                                                          | [arxiv](https://arxiv.org/abs/2402.04384) | [Week 2](#week-2)   |     Johannes          |                           |
-| 16.10.2024 | Further Properties of DM                | On the Generalization Properties of Diffusion Models                                                                           | [arxiv](https://arxiv.org/abs/2311.01797) | [Week 3](#week-3)   |                       |                           |
+| 16.10.2024 | Introduction 3: RL view                | An Optimal Control Perspective on Diffusion-based Generative Modeling                                                                           | [arxiv](https://arxiv.org/abs/2211.01364) | [Week 3](#week-3)   |       Turan             |       Annalena                 |
 | 23.10.2024 | Sampler and Solver for Diffusion Models | SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models                                            | [arxiv](https://arxiv.org/abs/2305.14267) | [Week 4](#week-4)   |                       |                           |
 | 30.10.2024 | Bonus 1                                 | TBD                                                                                                                            | TBD                                       | [Week 5](#week-5)   |                       |                           |
 | 06.11.2024 | Flow Matching 1                         | Diffusion Schrödinger Bridge Matching                                                                                          | [arxiv](https://arxiv.org/abs/2303.16852) | [Week 6](#week-6)   |     Mattia              |                           |
@@ -72,19 +72,16 @@ _Abstract_
 ## Week 3
 ### Titel
 
-| **Titel**                 | On the Generalization Properties of Diffusion Models |
+| **Titel**                 | An Optimal Control Perspective on Diffusion-based Generative Modeling |
 | ------------------------- | ---------------------------------------------------- |
 | **Date**                  | 16.10.2024                                           |
-| **Authors**               | Puheng Li, Zhong Li, Huishuai Zhang, Jiang Bian      |
-| **Responsible Recap**     |                                                      |
-| **Responsible Questions** |                                                      |
-| **Link**                  | [arxiv](https://arxiv.org/abs/2311.01797)            |
+| **Authors**               | Julius Berner, Lorenz Richter, Karen Ullrich         |
+| **Responsible Recap**     | Turan                                                |
+| **Responsible Questions** | Annalena                                             |
+| **Link**                  | [arxiv](https://arxiv.org/abs/2211.01364)            |
 
 _Abstract_
-> Diffusion models are a class of generative models that serve to establish a stochastic transport map between an empirically observed, yet unknown, target distribution and a known prior. Despite their remarkable success in real-world applications, a theoretical understanding of their generalization capabilities remains underdeveloped. This work embarks on a comprehensive theoretical exploration of the generalization attributes of diffusion models. We establish theoretical estimates of the generalization gap that evolves in tandem with the training dynamics of score-based diffusion models, suggesting a polynomially small generalization error (O(n−2/5+m−4/5)) on both the sample size n and the model capacity m, evading the curse of dimensionality (i.e., not exponentially large in the data dimension) when early-stopped. Furthermore, we extend our quantitative analysis to a data-dependent scenario, wherein target distributions are portrayed as a succession of densities with progressively increasing distances between modes. This precisely elucidates the adverse effect of "modes shift" in ground truths on the model generalization. Moreover, these estimates are not solely theoretical constructs but have also been confirmed through numerical simulations. Our findings contribute to the rigorous understanding of diffusion models' generalization properties and provide insights that may guide practical applications.
-
-**Further reading**
-- [How Diffusion Models Learn to Factorize and Compose](https://arxiv.org/abs/2408.13256)
+> We establish a connection between stochastic optimal control and generative models based on stochastic differential equations (SDEs), such as recently developed diffusion probabilistic models. In particular, we derive a Hamilton-Jacobi-Bellman equation that governs the evolution of the log-densities of the underlying SDE marginals. This perspective allows to transfer methods from optimal control theory to generative modeling. First, we show that the evidence lower bound is a direct consequence of the well-known verification theorem from control theory. Further, we can formulate diffusion-based generative modeling as a minimization of the Kullback-Leibler divergence between suitable measures in path space. Finally, we develop a novel diffusion-based method for sampling from unnormalized densities -- a problem frequently occurring in statistics and computational sciences. We demonstrate that our time-reversed diffusion sampler (DIS) can outperform other diffusion-based sampling approaches on multiple numerical examples.
 
 
 ## Week 4
