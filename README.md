@@ -14,7 +14,7 @@ Content of this page:
 | 02.10.2024 | Introduction 1 : SDE view               | Elucidating the Design Space of Diffusion-Based Generative Models                                                              | [arxiv](https://arxiv.org/abs/2206.00364) | [Week 1](#week-1)   |        Manuel          |       Carla                    |
 | 09.10.2024 | Introduction 2: ELBO view               | Understanding the Diffusion Objective as a Weighted Integral of ELBOs                                                          | [arxiv](https://arxiv.org/abs/2303.00848) | [Week 2](#week-2)   |     Johannes          |                           |
 | 16.10.2024 | Introduction 3: RL view                | An Optimal Control Perspective on Diffusion-based Generative Modeling                                                                           | [arxiv](https://arxiv.org/abs/2211.01364) | [Week 3](#week-3)   |       Turan             |       Annalena                 |
-| 23.10.2024 | Sampler and Solver for Diffusion Models | SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models                                            | [arxiv](https://arxiv.org/abs/2305.14267) | [Week 4](#week-4)   |                       |                           |
+| 23.10.2024 | Sampler and Solver for Diffusion Models | SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models                                            | [arxiv](https://arxiv.org/abs/2305.14267) | [Week 4](#week-4)   | Carla            |                           |
 | 30.10.2024 | Bonus 1                                 | TBD                                                                                                                            | TBD                                       | [Week 5](#week-5)   |                       |                           |
 | 06.11.2024 | Flow Matching 1                         | Diffusion Schrödinger Bridge Matching                                                                                          | [arxiv](https://arxiv.org/abs/2303.16852) | [Week 6](#week-6)   |     Mattia              |                           |
 | 13.11.2024 | Flow Matching 2                         | Flow Matching for Generative Modeling <br> <br>  Scaling Rectified Flow Transformers for High-Resolution Image Synthesis                                                                                          | [arxiv](https://arxiv.org/abs/2210.02747) <br> <br> [arxiv](https://arxiv.org/abs/2403.03206)  | [Week 7](#week-7)   |      Annalena <br> <br> Jay              |                           |
@@ -49,6 +49,8 @@ _Abstract_
 - [Denoising Diffusion Probabilistic Models in Six Simple Steps](https://arxiv.org/abs/2402.04384) (2024)
 - [Step-by-Step Diffusion: An Elementary Tutorial](http://arxiv.org/abs/2406.08929) (2024)
 - [Understanding Diffusion Models: A unified perspective](https://arxiv.org/abs/2208.11970) (2022)
+**Additional resources**
+- [Blog post "What are diffusion models"](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) (2021, last updated 2024) by Lilan Weng
 
 ## Week 2
 ### Diffusion Models: the ELBO view
@@ -68,6 +70,9 @@ _Abstract_
 
 **Further reading**
 - [Variational Diffusion Models](http://arxiv.org/abs/2107.00630)
+**Additional resources**
+- [Video recording](https://www.youtube.com/watch?v=B8DN_93_oUc) of Ruiqi Gao presenting "Understanding Diffusion Model Objectives from the Perspective of ELBO" (2023)
+- [Blog post "Diffusion models are autoencoders"](https://sander.ai/2022/01/31/diffusion.html) (2022) by Daniel Sander
 
 ## Week 3
 ### Titel
@@ -82,17 +87,19 @@ _Abstract_
 
 _Abstract_
 > We establish a connection between stochastic optimal control and generative models based on stochastic differential equations (SDEs), such as recently developed diffusion probabilistic models. In particular, we derive a Hamilton-Jacobi-Bellman equation that governs the evolution of the log-densities of the underlying SDE marginals. This perspective allows to transfer methods from optimal control theory to generative modeling. First, we show that the evidence lower bound is a direct consequence of the well-known verification theorem from control theory. Further, we can formulate diffusion-based generative modeling as a minimization of the Kullback-Leibler divergence between suitable measures in path space. Finally, we develop a novel diffusion-based method for sampling from unnormalized densities -- a problem frequently occurring in statistics and computational sciences. We demonstrate that our time-reversed diffusion sampler (DIS) can outperform other diffusion-based sampling approaches on multiple numerical examples.
-
+**Additional resources:**
+- [Video recording of a talk](https://www.youtube.com/watch?v=-A7IRw_gMkM) about the paper by Lorenz Richter.
+- For more information about optimal control and the Hamilton-Jacobi-Bellman Equation, [this video](https://www.youtube.com/watch?v=-hO-AnFYm6M) might be helpful.
 
 ## Week 4
 ### Titel
 
 | **Titel**                 |SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models     |
 | ------------------------- | --- |
-| **Date**                  |     |
+| **Date**                  | 23.10.2024     |
 | **Authors**               |  
 Martin Gonzalez, Nelson Fernandez, Thuy Tran, Elies Gherbi, Hatem Hajri, Nader Masmoudi   |
-| **Responsible Recap**     |     |
+| **Responsible Recap**     | Carla     |
 | **Responsible Questions** |     |
 | **Link**                  |  [arxiv](https://arxiv.org/abs/2305.14267)   |
 
