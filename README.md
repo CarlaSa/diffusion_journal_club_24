@@ -49,6 +49,7 @@ _Abstract_
 - [Denoising Diffusion Probabilistic Models in Six Simple Steps](https://arxiv.org/abs/2402.04384) (2024)
 - [Step-by-Step Diffusion: An Elementary Tutorial](http://arxiv.org/abs/2406.08929) (2024)
 - [Understanding Diffusion Models: A unified perspective](https://arxiv.org/abs/2208.11970) (2022)
+
 **Additional resources**
 - [Blog post "What are diffusion models"](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) (2021, last updated 2024) by Lilan Weng
 
@@ -70,6 +71,7 @@ _Abstract_
 
 **Further reading**
 - [Variational Diffusion Models](http://arxiv.org/abs/2107.00630)
+
 **Additional resources**
 - [Video recording](https://www.youtube.com/watch?v=B8DN_93_oUc) of Ruiqi Gao presenting "Understanding Diffusion Model Objectives from the Perspective of ELBO" (2023)
 - [Blog post "Diffusion models are autoencoders"](https://sander.ai/2022/01/31/diffusion.html) (2022) by Daniel Sander
@@ -87,6 +89,7 @@ _Abstract_
 
 _Abstract_
 > We establish a connection between stochastic optimal control and generative models based on stochastic differential equations (SDEs), such as recently developed diffusion probabilistic models. In particular, we derive a Hamilton-Jacobi-Bellman equation that governs the evolution of the log-densities of the underlying SDE marginals. This perspective allows to transfer methods from optimal control theory to generative modeling. First, we show that the evidence lower bound is a direct consequence of the well-known verification theorem from control theory. Further, we can formulate diffusion-based generative modeling as a minimization of the Kullback-Leibler divergence between suitable measures in path space. Finally, we develop a novel diffusion-based method for sampling from unnormalized densities -- a problem frequently occurring in statistics and computational sciences. We demonstrate that our time-reversed diffusion sampler (DIS) can outperform other diffusion-based sampling approaches on multiple numerical examples.
+
 **Additional resources:**
 - [Video recording of a talk](https://www.youtube.com/watch?v=-A7IRw_gMkM) about the paper by Lorenz Richter.
 - For more information about optimal control and the Hamilton-Jacobi-Bellman Equation, [this video](https://www.youtube.com/watch?v=-hO-AnFYm6M) might be helpful.
@@ -97,8 +100,7 @@ _Abstract_
 | **Titel**                 |SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models     |
 | ------------------------- | --- |
 | **Date**                  | 23.10.2024     |
-| **Authors**               |  
-Martin Gonzalez, Nelson Fernandez, Thuy Tran, Elies Gherbi, Hatem Hajri, Nader Masmoudi   |
+| **Authors**               |  Martin Gonzalez, Nelson Fernandez, Thuy Tran, Elies Gherbi, Hatem Hajri, Nader Masmoudi   |
 | **Responsible Recap**     | Carla     |
 | **Responsible Questions** |     |
 | **Link**                  |  [arxiv](https://arxiv.org/abs/2305.14267)   |
@@ -126,6 +128,7 @@ _Abstract_
 
 **Further reading**
 - [A Survey on Diffusion Models for Inverse Problems](https://arxiv.org/abs/2410.00083)
+
 **Additional resources**
 - [Talk Diffusion Models for Inverse Problems](https://www.youtube.com/watch?v=F5S8VBBncGw)
 
