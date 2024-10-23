@@ -15,7 +15,7 @@ Content of this page:
 | 09.10.2024 | Introduction 2: ELBO view               | Understanding the Diffusion Objective as a Weighted Integral of ELBOs                                                          | [arxiv](https://arxiv.org/abs/2303.00848) | [Week 2](#week-2)   |     Johannes          |                           |
 | 16.10.2024 | Introduction 3: RL view                | An Optimal Control Perspective on Diffusion-based Generative Modeling                                                                           | [arxiv](https://arxiv.org/abs/2211.01364) | [Week 3](#week-3)   |       Turan             |       Annalena                 |
 | 23.10.2024 | Sampler and Solver for Diffusion Models | SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models                                            | [arxiv](https://arxiv.org/abs/2305.14267) | [Week 4](#week-4)   | Carla            |                           |
-| 30.10.2024 | Bonus 1                                 | TBD                                                                                                                            | TBD                                       | [Week 5](#week-5)   |                       |                           |
+| 30.10.2024 | Guidance for Inverse Problems            | Ensemble Kalman Diffusion Guidance: A Derivative-free Method for Inverse Problems                                              | [arxiv](https://arxiv.org/abs/2409.20175)| [Week 5](#week-5)   | Annalena                    |                           |
 | 06.11.2024 | Flow Matching 1                         | Diffusion Schrödinger Bridge Matching                                                                                          | [arxiv](https://arxiv.org/abs/2303.16852) | [Week 6](#week-6)   |     Mattia              |                           |
 | 13.11.2024 | Flow Matching 2                         | Flow Matching for Generative Modeling <br> <br>  Scaling Rectified Flow Transformers for High-Resolution Image Synthesis                                                                                          | [arxiv](https://arxiv.org/abs/2210.02747) <br> <br> [arxiv](https://arxiv.org/abs/2403.03206)  | [Week 7](#week-7)   |      Annalena <br> <br> Jay              |                           |
 | 20.11.2024 | Consistency models                      | Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion                                           | [arxiv](https://arxiv.org/abs/2310.02279) | [Week 8](#week-8)   |                       |                           |
@@ -75,7 +75,7 @@ _Abstract_
 - [Blog post "Diffusion models are autoencoders"](https://sander.ai/2022/01/31/diffusion.html) (2022) by Daniel Sander
 
 ## Week 3
-### Titel
+### Optimal Control Perspective
 
 | **Titel**                 | An Optimal Control Perspective on Diffusion-based Generative Modeling |
 | ------------------------- | ---------------------------------------------------- |
@@ -92,7 +92,7 @@ _Abstract_
 - For more information about optimal control and the Hamilton-Jacobi-Bellman Equation, [this video](https://www.youtube.com/watch?v=-hO-AnFYm6M) might be helpful.
 
 ## Week 4
-### Titel
+### Sampler and Solver for Diffusion Models
 
 | **Titel**                 |SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models     |
 | ------------------------- | --- |
@@ -111,18 +111,23 @@ _Abstract_
 
 
 ## Week 5
-### TBD
+### Guidance for Inverse Problems
 
-| **Titel**                 |     |
+| **Titel**                 | Ensemble Kalman Diffusion Guidance: A Derivative-free Method for Inverse Problems    |
 | ------------------------- | --- |
-| **Date**                  |     |
-| **Authors**               |     |
-| **Responsible Recap**     |     |
+| **Date**                  | 30.10.2024    |
+| **Authors**               | Hongkai Zheng, Wenda Chu, Austin Wang, Nikola Kovachki, Ricardo Baptista, Yisong Yue    |
+| **Responsible Recap**     | Annalena    |
 | **Responsible Questions** |     |
-| **Link**                  |     |
+| **Link**                  | [arxiv](https://arxiv.org/abs/2409.20175)    |
 
 _Abstract_
-> Contents
+> When solving inverse problems, it is increasingly popular to use pre-trained diffusion models as plug-and-play priors. This framework can accommodate different forward models without re-training while preserving the generative capability of diffusion models. Despite their success in many imaging inverse problems, most existing methods rely on privileged information such as derivative, pseudo-inverse, or full knowledge about the forward model. This reliance poses a substantial limitation that restricts their use in a wide range of problems where such information is unavailable, such as in many scientific applications. To address this issue, we propose Ensemble Kalman Diffusion Guidance (EnKG) for diffusion models, a derivative-free approach that can solve inverse problems by only accessing forward model evaluations and a pre-trained diffusion model prior. We study the empirical effectiveness of our method across various inverse problems, including scientific settings such as inferring fluid flows and astronomical objects, which are highly non-linear inverse problems that often only permit black-box access to the forward model.
+
+**Further reading**
+- [A Survey on Diffusion Models for Inverse Problems](https://arxiv.org/abs/2410.00083)
+**Additional resources**
+- [Talk Diffusion Models for Inverse Problems](https://www.youtube.com/watch?v=F5S8VBBncGw)
 
 ## Week 6
 ### Flow Matching Part 1
@@ -136,9 +141,7 @@ _Abstract_
 | **Link**                  |   [arxiv](https://arxiv.org/abs/2210.02747)  |
 
 _Abstract_
-> Solving transport problems, i.e. finding a map transporting one given distribution to another, has numerous applications in machine learning. Novel mass transport methods motivated by generative modeling have recently been proposed, e.g. Denoising Diffusion Models (DDMs) and Flow Matching Models (FMMs) implement such a transport through a Stochastic Differential Equation (SDE) or an Ordinary Differential Equation (ODE). However, while it is desirable in many applications to approximate the deterministic dynamic Optimal Transport (OT) map which admits attractive properties, DDMs and FMMs are not guaranteed to provide transports close to the OT map. In contrast, Schrödinger bridges (SBs) compute stochastic dynamic mappings which recover entropy-regularized versions of OT. Unfortunately, existing numerical methods approximating SBs either scale poorly with dimension or accumulate errors across iterations. In this work, we introduce Iterative Markovian Fitting (IMF), a new methodology for solving SB problems, and Diffusion Schrödinger Bridge Matching (DSBM), a novel numerical algorithm for computing IMF iterates. DSBM significantly improves over previous SB numerics and recovers as special/limiting cases various recent transport methods. We demonstrate the performance of DSBM on a variety of problems. 
-
-
+> Solving transport problems, i.e. finding a map transporting one given distribution to another, has numerous applications in machine learning. Novel mass transport methods motivated by generative modeling have recently been proposed, e.g. Denoising Diffusion Models (DDMs) and Flow Matching Models (FMMs) implement such a transport through a Stochastic Differential Equation (SDE) or an Ordinary Differential Equation (ODE). However, while it is desirable in many applications to approximate the deterministic dynamic Optimal Transport (OT) map which admits attractive properties, DDMs and FMMs are not guaranteed to provide transports close to the OT map. In contrast, Schrödinger bridges (SBs) compute stochastic dynamic mappings which recover entropy-regularized versions of OT. Unfortunately, existing numerical methods approximating SBs either scale poorly with dimension or accumulate errors across iterations. In this work, we introduce Iterative Markovian Fitting (IMF), a new methodology for solving SB problems, and Diffusion Schrödinger Bridge Matching (DSBM), a novel numerical algorithm for computing IMF iterates. DSBM significantly improves over previous SB numerics and recovers as special/limiting cases various recent transport methods. We demonstrate the performance of DSBM on a variety of problems.
 
 ## Week 7
 ### Flow Matching Part 2
